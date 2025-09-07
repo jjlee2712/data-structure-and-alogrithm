@@ -17,6 +17,11 @@ public class StackController {
     // Peek = view the top of the stack
     // IsEmpty = check if the stack is empty
     // Search = search for an item in the stack and return its position from the top of the stack (1-based index)
+
+    // Example of a stack
+    // 1. Undo and Redo of a function
+    // 2. Stacking of books
+    // 3. Moving back and forward of web pages
     
     @GetMapping("")
     public void stack() {
